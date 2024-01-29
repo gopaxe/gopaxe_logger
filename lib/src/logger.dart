@@ -158,8 +158,7 @@ class GopaxeLogger {
       final encryptedTelegramToken =
           "YsGHt+CR0tvc11Ri63owko3cKbFsL+0phoUz9A3q9chx//1CV7ZIDOOUClBBqAl+";
 
-      final iv =
-          IV.fromUtf8("NFKp'ESl'h0=#FUm9]YMt!H0NAF,=F7+".substring(0, 6));
+      final iv = IV.fromUtf8(secret.substring(0, 6));
 
       final encrypter = Encrypter(AES(Key.fromUtf8(secret)));
 
