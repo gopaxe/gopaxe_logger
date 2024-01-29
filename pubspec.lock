@@ -332,11 +332,12 @@ packages:
   loggme:
     dependency: "direct main"
     description:
-      name: loggme
-      sha256: "49b1b832f9d20a698bef67686d2fbc57f55e25e81611fa06032c9bba9d340711"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.5"
+      path: "."
+      ref: HEAD
+      resolved-ref: "3101b00373e9c508cbb86be778e7fbf0d7cd286c"
+      url: "https://github.com/Ofceab-Studio/loggme.git"
+    source: git
+    version: "1.0.6"
   matcher:
     dependency: transitive
     description:

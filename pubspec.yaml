@@ -9,7 +9,10 @@ environment:
 dependencies:
   encrypt: ^5.0.3
   intl: ^0.19.0
-  loggme: ^1.0.5 
+  # loggme: ^1.0.5 
+  loggme: 
+    git:
+      url: https://github.com/Ofceab-Studio/loggme.git
     # path: ../demo_logging_with_telegram
     
   
