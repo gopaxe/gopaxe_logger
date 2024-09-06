@@ -46,7 +46,7 @@ class LogsRequestSpeedTimeWarning implements SendAsLog {
   final Duration duration;
   final DateTime dateTime;
   LogsRequestSpeedTimeWarning({required this.duration, required this.endpoint})
-      : dateTime = DateTime.now()
+      : dateTime = DateTime.now();
 
   @override
   (SlackLoggMessage, TelegramLoggMessage) toLog(
