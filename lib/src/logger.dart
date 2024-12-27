@@ -178,17 +178,17 @@ class GopaxeLogger {
           .decrypt64('JIHf5vvUgZ2egRwOxlMYkenhQ+w7d6Rau+FKjGrCkYs=', iv: iv);
 
       final telegramChatId =
-          encrypter.decrypt64('ecKAsuee1tvf01kQmA994A==', iv: iv);
+          encrypter.decrypt64('ecKAsuSU19vZ110bmwt94A==', iv: iv);
 
       final telegramDevAppLogsThread =
-          encrypter.decrypt64('bcaGstqr6OPk6GIvpjBz7g==', iv: iv);
+          encrypter.decrypt64('Zse+jNip6uHm6mAtpDJx7A==', iv: iv);
       final telegramDevServerLogsThread =
-          encrypter.decrypt64('bcaGsNqr6OPk6GIvpjBz7g==', iv: iv);
+          encrypter.decrypt64('ZsG+jNip6uHm6mAtpDJx7A==', iv: iv);
 
       final telegramProdAppLogsThread =
-          encrypter.decrypt64('bcaGttqr6OPk6GIvpjBz7g==', iv: iv);
+          encrypter.decrypt64('Zsu+jNip6uHm6mAtpDJx7A==', iv: iv);
       final telegramProdServerLogsThread =
-          encrypter.decrypt64('bcaGtNqr6OPk6GIvpjBz7g==', iv: iv);
+          encrypter.decrypt64('ZsW+jNip6uHm6mAtpDJx7A==', iv: iv);
 
       return _ChannelsConfigs(
           appsSenders: _EnvChannelsConfigs(devSlackSenders: [

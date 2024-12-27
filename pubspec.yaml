@@ -2,6 +2,7 @@ name: gopaxe_logger
 description: Gopaxe logger
 version: 1.0.0
 repository: https://github.com/gopaxe/gopaxe_logger.git
+publish_to: none
 
 environment:
   sdk: ^3.1.0
